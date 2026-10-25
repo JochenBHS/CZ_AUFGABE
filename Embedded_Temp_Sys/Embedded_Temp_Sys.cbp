@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Embedded_Temp_Sys" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Embedded_Temp_Sys" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lm" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Embedded_Temp_Sys" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c11" />
+			<Add directory="BSW/Adc/readAdc" />
+			<Add directory="../Embedded_Temp_Sys" />
+			<Add directory="BSW/Adc/quantAdc" />
+			<Add directory="BSW/Adc/sendAdc" />
+			<Add directory="ASW/Temp/receiveAdcSigTemp" />
+			<Add directory="ASW/Temp/evalTemp" />
+			<Add directory="ASW/Temp/sendTempStates" />
+			<Add directory="BSW/Dio/setDo" />
+			<Add directory="BSW/Port/conf_Port" />
+			<Add directory="BSW/Eeprom" />
+			<Add directory="BSW/I2c" />
+			<Add directory="ADD_FCN" />
+			<Add directory="BSW/Dio/receiveDoSig" />
+		</Compiler>
+		<Unit filename="ADD_FCN/add_fcn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ADD_FCN/add_fcn.h" />
+		<Unit filename="ASW/Temp/evalTemp/evalTemp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ASW/Temp/evalTemp/evalTemp.h" />
+		<Unit filename="ASW/Temp/receiveAdcSigTemp/receiveAdcSigTemp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ASW/Temp/receiveAdcSigTemp/receiveAdcSigTemp.h" />
+		<Unit filename="ASW/Temp/sendTempStates/sendTempStates.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ASW/Temp/sendTempStates/sendTempStates.h" />
+		<Unit filename="BSW/Adc/quantAdc/quantAdc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BSW/Adc/quantAdc/quantAdc.h" />
+		<Unit filename="BSW/Adc/readAdc/readAdc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BSW/Adc/readAdc/readAdc.h" />
+		<Unit filename="BSW/Adc/sendAdc/sendAdc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BSW/Adc/sendAdc/sendAdc.h" />
+		<Unit filename="BSW/Dio/receiveDoSig/receiveDoSig.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BSW/Dio/receiveDoSig/receiveDoSig.h" />
+		<Unit filename="BSW/Dio/setDo/setDo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BSW/Dio/setDo/setDo.h" />
+		<Unit filename="BSW/Eeprom/confEeprom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BSW/Eeprom/confEeprom.h" />
+		<Unit filename="BSW/Eeprom/mockedEeprom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BSW/Eeprom/mockedEeprom.h" />
+		<Unit filename="BSW/I2c/confI2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BSW/I2c/confI2c.h" />
+		<Unit filename="BSW/Port/conf_Port/confPort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BSW/Port/conf_Port/confPort.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main_global.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
