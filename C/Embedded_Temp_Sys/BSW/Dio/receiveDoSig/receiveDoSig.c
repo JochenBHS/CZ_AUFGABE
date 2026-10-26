@@ -1,5 +1,10 @@
-
-
+/* 
+ * Project: Embedded Temperature Monitoring System
+ * Client:  CZ-SMT
+ * Date:    2026/10
+ * Author:  Jochen Buck
+ */
+ 
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>

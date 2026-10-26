@@ -1,7 +1,8 @@
-/* Project: Embedded Temperature Monitoring System
- * Client: CZ-SMT
- * Date: 2026/10
- * Author: Jochen Buck
+/* 
+ * Project: Embedded Temperature Monitoring System
+ * Client:  CZ-SMT
+ * Date:    2026/10
+ * Author:  Jochen Buck
  */
 
 #ifndef RECEIVEDOSIG_H_INCLUDED

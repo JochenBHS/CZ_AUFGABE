@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1792948868 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\main.c
+1792951019 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\main.c
 	<windows.h>
 	<math.h>
 	<stdio.h>
@@ -28,18 +28,18 @@
 	"../receiveAdcSigTemp/receiveAdcSigTemp.h"
 	"../sendTempStates/sendTempStates.h"
 
-1792941132 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\asw\temp\receiveadcsigtemp\receiveadcsigtemp.c
+1792949562 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\asw\temp\receiveadcsigtemp\receiveadcsigtemp.c
 	<stdio.h>
 	<main_global.h>
 	"receiveAdcSigTemp.h"
 
-1792944387 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\asw\temp\sendtempstates\sendtempstates.c
+1792949503 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\asw\temp\sendtempstates\sendtempstates.c
 	<stdint.h>
 	<stdio.h>
 	<../../../main_global.h>
 	"sendTempStates.h"
 
-1792938287 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\quantadc\quantadc.c
+1792972084 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\quantadc\quantadc.c
 	<windows.h>
 	<stdio.h>
 	<stdlib.h>
@@ -49,7 +49,7 @@
 	"main_global.h"
 	"quantAdc.h"
 
-1792949444 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\readadc\readadc.c
+1792972554 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\readadc\readadc.c
 	<windows.h>
 	<stdio.h>
 	<stdbool.h>
@@ -59,13 +59,13 @@
 	<main_global.h>
 	"readAdc.h"
 
-1792939582 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\sendadc\sendadc.c
+1792973106 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\sendadc\sendadc.c
 	<stdio.h>
 	<string.h>
 	"main_global.h"
 	"sendAdc.h"
 
-1792944500 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\dio\receivedosig\receivedosig.c
+1792973759 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\dio\receivedosig\receivedosig.c
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
@@ -80,18 +80,18 @@
 	<../../../main_global.h>
 	"setDo.h"
 
-1792866990 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\dio\setdo\setdo.h
+1792976940 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\dio\setdo\setdo.h
 
-1792866386 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\dio\receivedosig\receivedosig.h
+1792973868 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\dio\receivedosig\receivedosig.h
 
-1792861230 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\asw\temp\evaltemp\evaltemp.h
+1792977000 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\asw\temp\evaltemp\evaltemp.h
 
-1792856903 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\asw\temp\receiveadcsigtemp\receiveadcsigtemp.h
+1792977000 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\asw\temp\receiveadcsigtemp\receiveadcsigtemp.h
 
-1792865267 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\asw\temp\sendtempstates\sendtempstates.h
+1792977000 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\asw\temp\sendtempstates\sendtempstates.h
 	<stdint.h>
 
-1792853010 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\sendadc\sendadc.h
+1792973043 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\sendadc\sendadc.h
 
 1792949339 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\main_global.h
 	<windows.h>
@@ -99,16 +99,16 @@
 	<math.h>
 	<stdbool.h>
 
-1792924502 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\readadc\readadc.h
+1792972655 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\readadc\readadc.h
 
-1792873736 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\quantadc\quantadc.h
+1792972205 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\adc\quantadc\quantadc.h
 	<math.h>
 
 1792875360 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\port\conf_port\confport.c
 	<../../../main_global.h>
 	<confPort.h>
 
-1792874965 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\port\conf_port\confport.h
+1792977000 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\port\conf_port\confport.h
 
 1792918019 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\eeprom\confeeprom.c
 	<stdio.h>
@@ -127,11 +127,11 @@
 
 1792881607 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\eeprom\mockedeeprom.h
 
-1792883007 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\i2c\confi2c.h
+1792977000 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\bsw\i2c\confi2c.h
 
 1792931063 source:c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\add_fcn\add_fcn.c
 	"main_global.h"
 	<add_fcn.h>
 
-1792927109 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\add_fcn\add_fcn.h
+1792977000 c:\_01_hifi_hobby\00_cz_projekt\00_coding\c\02_project\embedded_temp_sys\add_fcn\add_fcn.h
 

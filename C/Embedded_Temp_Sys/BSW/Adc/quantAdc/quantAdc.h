@@ -1,9 +1,9 @@
-/* Project: Embedded Temperature Monitoring System
- * Client: CZ-SMT
- * Date: 2026/10
- * Author: Jochen Buck
+/* 
+ * Project: Embedded Temperature Monitoring System
+ * Client:  CZ-SMT
+ * Date:    2026/10
+ * Author:  Jochen Buck
  */
-
 
 #ifndef QUANTADC_H_INCLUDED
 #define QUANTADC_H_INCLUDED
